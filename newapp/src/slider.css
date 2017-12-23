@@ -1,0 +1,22 @@
+.sliders-wrapper{
+    position: relative;
+    overflow: hidden;
+
+}
+.sliders-wrapper .content{
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.7s;
+}
+
+.sliders-wrapper .content .slider-item{
+    height: 100%;
+    float: left;
+    /*width: 1226px;*/
+}
+
+.sliders-wrapper .content .slider-item img{
+    width: 100%;
+    height: 100%;
+}
